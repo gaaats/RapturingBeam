@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gaaame"
+    app:startDestination="@id/f1Fragment">
+
+    <fragment
+        android:id="@+id/g1Fragment"
+        android:name="com.makingfun.mageandminion.G1Fragment"
+        android:label="fragment_g1"
+        tools:layout="@layout/fragment_g1" >
+        <action
+            android:id="@+id/action_g1Fragment_to_g2Fragment"
+            app:destination="@id/g2Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/g2Fragment"
+        android:name="com.makingfun.mageandminion.G2Fragment"
+        android:label="fragment_g2"
+        tools:layout="@layout/fragment_g2" >
+        <action
+            android:id="@+id/action_g2Fragment_to_g3Fragment"
+            app:destination="@id/g3Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/g3Fragment"
+        android:name="com.makingfun.mageandminion.G3Fragment"
+        android:label="fragment_g3"
+        tools:layout="@layout/fragment_g3" >
+        <action
+            android:id="@+id/action_g3Fragment_to_g1Fragment"
+            app:destination="@id/g1Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/f1Fragment"
+        android:name="com.makingfun.mageandminion.F1Fragment"
+        android:label="fragment_f1"
+        tools:layout="@layout/fragment_f1" >
+        <action
+            android:id="@+id/action_f1Fragment_to_f2Fragment"
+            app:destination="@id/f2Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/f2Fragment"
+        android:name="com.makingfun.mageandminion.F2Fragment"
+        android:label="fragment_f2"
+        tools:layout="@layout/fragment_f2" >
+        <action
+            android:id="@+id/action_f2Fragment_to_f3Fragment"
+            app:destination="@id/f3Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/f3Fragment"
+        android:name="com.makingfun.mageandminion.F3Fragment"
+        android:label="fragment_f3"
+        tools:layout="@layout/fragment_f3" >
+        <action
+            android:id="@+id/action_f3Fragment_to_f4Fragment"
+            app:destination="@id/f4Fragment" />
+        <action
+            android:id="@+id/action_f3Fragment_to_g1Fragment"
+            app:destination="@id/g1Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/f4Fragment"
+        android:name="com.makingfun.mageandminion.F4Fragment"
+        android:label="fragment_f4"
+        tools:layout="@layout/fragment_f4" >
+        <action
+            android:id="@+id/action_f4Fragment_to_g1Fragment"
+            app:destination="@id/g1Fragment" />
+    </fragment>
+</navigation>
