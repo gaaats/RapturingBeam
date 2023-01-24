@@ -99,7 +99,7 @@ class F4Fragment : Fragment() {
                         Log.d("lolo", "in 1")
                         Log.d("lolo", "naming in 1 ${naming}")
                         Log.d("lolo", "deepLink in 1 ${deepLink}")
-                        Toast.makeText(requireContext(), "Deeplink GOOD ${deepLink}, frag4", Toast.LENGTH_SHORT).show()
+//                        Toast.makeText(requireContext(), "Deeplink GOOD ${deepLink}, frag4", Toast.LENGTH_SHORT).show()
 
 
                         //Fb + Apps

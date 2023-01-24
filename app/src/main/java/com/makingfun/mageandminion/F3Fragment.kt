@@ -217,12 +217,12 @@ class F3Fragment : Fragment() {
                 Log.d("lolo", "fbDeee GET deepData")
                 Log.d("lolo", "fbDeee GET deepData deepLink is $deepData")
                 tempDeep = deepData
-                Toast.makeText(cont, "Deeplink GOOD ${deepData}", Toast.LENGTH_SHORT).show()
+//                Toast.makeText(cont, "Deeplink GOOD ${deepData}", Toast.LENGTH_SHORT).show()
             }
             if (data == null){
                 tempDeep = "null"
                 Log.d("lolo", "fbDeee deepData == null")
-                Toast.makeText(cont, "Deeplink  NUll", Toast.LENGTH_SHORT).show()
+//                Toast.makeText(cont, "Deeplink  NUll", Toast.LENGTH_SHORT).show()
             }
         }
     }
