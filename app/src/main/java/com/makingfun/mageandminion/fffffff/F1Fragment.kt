@@ -1,4 +1,4 @@
-package com.makingfun.mageandminion
+package com.makingfun.mageandminion.fffffff
 
 import android.os.Bundle
 import android.util.Log
@@ -9,6 +9,7 @@ import android.view.ViewGroup
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import com.google.android.material.snackbar.Snackbar
+import com.makingfun.mageandminion.R
 import com.makingfun.mageandminion.apiiiiaiai.DataStoreManager
 import com.makingfun.mageandminion.apiiiiaiai.DataStoreManager.Companion.firstStartDataStoreKeyhyhy2yh2
 import com.makingfun.mageandminion.apiiiiaiai.DataStoreManager.Companion.instIDDataStoreKeygt2gtgt

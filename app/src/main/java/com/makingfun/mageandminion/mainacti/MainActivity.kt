@@ -1,7 +1,8 @@
-package com.makingfun.mageandminion
+package com.makingfun.mageandminion.mainacti
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.makingfun.mageandminion.R
 import dagger.hilt.android.AndroidEntryPoint
 import dagger.hilt.android.scopes.ActivityScoped
 

@@ -1,4 +1,4 @@
-package com.makingfun.mageandminion
+package com.makingfun.mageandminion.fffffff
 
 import android.os.Bundle
 import android.util.Log
@@ -10,6 +10,7 @@ import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import com.google.android.gms.ads.identifier.AdvertisingIdClient
 import com.google.android.material.snackbar.Snackbar
+import com.makingfun.mageandminion.R
 import com.makingfun.mageandminion.apiiiiaiai.DataStoreManager
 import com.makingfun.mageandminion.apiiiiaiai.DataStoreManager.Companion.advertIDDataStoreKeygt62tg2tg
 import com.makingfun.mageandminion.apiiiiaiai.DataStoreManager.Companion.appsCheckerDataStoreKeygt2

@@ -1,4 +1,4 @@
-package com.makingfun.mageandminion
+package com.makingfun.mageandminion.fffffff
 
 import android.content.Intent
 import android.os.Build
@@ -8,11 +8,11 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import com.appsflyer.AppsFlyerLib
 import com.google.android.material.snackbar.Snackbar
+import com.makingfun.mageandminion.R
 import com.makingfun.mageandminion.apapap.SupermanClass
 import com.makingfun.mageandminion.apiiiiaiai.DataStoreManager
 import com.makingfun.mageandminion.apiiiiaiai.DataStoreManager.Companion.advertIDDataStoreKeygt62tg2tg
@@ -88,7 +88,7 @@ class F4Fragment : Fragment() {
                     AppsFlyerLib.getInstance().getAppsFlyerUID(requireContext().applicationContext)
 
 
-                delay(1900)
+                delay(1000)
 
                 when (checkNumber) {
                     "2" -> {

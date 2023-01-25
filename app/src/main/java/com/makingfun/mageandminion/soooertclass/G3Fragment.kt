@@ -1,4 +1,4 @@
-package com.makingfun.mageandminion
+package com.makingfun.mageandminion.soooertclass
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import com.google.android.material.snackbar.Snackbar
+import com.makingfun.mageandminion.R
 import com.makingfun.mageandminion.databinding.FragmentG3Binding
 import kotlin.random.Random
 

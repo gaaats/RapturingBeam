@@ -21,12 +21,6 @@ import java.io.File
 import java.io.IOException
 
 class VebVrroLiActivity : AppCompatActivity() {
-//    val dataRecived by lazy {
-//        intent.getParcelableExtra(Coooookokok.KEY_DATA_FOR_VEB_VIEV) as DataForVebViev?
-//    }
-
-
-
 
     private val bnbnbn = 1
 

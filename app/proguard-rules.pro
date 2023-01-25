@@ -3,13 +3,6 @@
 -keep class com.onesignal.ActivityLifecycleListenerCompat** {*;}
 
 
-##Hawk
-#-keepclassmembers @com.facebook.crypto.proguard.annotations.KeepGettersAndSetters class * {
-#  void set*(***);
-#  *** get*();
-#}
-
-
 #Lottie
 -dontwarn com.airbnb.lottie.**
 -keep class com.airbnb.lottie.** {*;}

@@ -1,4 +1,4 @@
-package com.makingfun.mageandminion
+package com.makingfun.mageandminion.fffffff
 
 import android.content.Context
 import android.os.Bundle
@@ -7,13 +7,13 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import com.appsflyer.AppsFlyerConversionListener
 import com.appsflyer.AppsFlyerLib
 import com.facebook.applinks.AppLinkData
 import com.google.android.material.snackbar.Snackbar
+import com.makingfun.mageandminion.R
 import com.makingfun.mageandminion.apiiiiaiai.DataStoreManager
 import com.makingfun.mageandminion.apiiiiaiai.DataStoreManager.Companion.appsCheckerDataStoreKeygt2
 import com.makingfun.mageandminion.apiiiiaiai.DataStoreManager.Companion.deepLinkDataStoreKey
@@ -139,14 +139,13 @@ class F3Fragment : Fragment() {
 
         while (true) {
             if (temNaming2hy2hy != "loading" && tempDeep!="loading") {
-                delay(1000)
                 if (preNaming == null) {
                     dataManager.saveStringToDataStoregtgttgt(key = namingDataStoreKeygt2, value = temNaming2hy2hy)
                 }
                 if (preDeep == null) {
                     dataManager.saveStringToDataStoregtgttgt(key = deepLinkDataStoreKey, value = tempDeep)
                 }
-                delay(500)
+                delay(300)
                 goNextScreen()
                 break
             } else {

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/ggggaammama"
-    tools:context=".G3Fragment">
+    tools:context=".soooertclass.G3Fragment">
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/hor_05"
